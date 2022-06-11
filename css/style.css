@@ -1,0 +1,184 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+
+body{
+
+text-align: center;
+margin: auto;
+padding: auto;
+
+background-color: #F4ECE4;
+
+
+}
+
+.nav-brand{
+
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin-top: 40px;
+
+
+
+
+}
+
+.options{
+
+display: inline-flex;
+gap: 25px;
+
+}
+
+.options li,a{
+
+list-style: none;
+text-decoration: none;
+color: #777777;
+font-weight: 500;
+font-size: 16px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.options li,a:hover{
+
+  color: #1b1a1a;
+transition: 0.4s;
+
+}
+
+
+
+.acess{
+
+display: flex;
+gap: 15px;
+align-items: center;
+
+
+
+}
+
+.acess-button{
+
+color: #f7f7f7;
+padding: 10px 16px;
+border: 0;
+border-radius: 3px;
+background-color: #183414;
+font-family: Verdana;
+font-weight: 500;
+
+}
+
+.acess-button:hover{
+
+background-color: #4a7545;
+transition: 0.4s;
+
+}
+
+
+.main-conteud{
+
+display: flex;
+justify-content: center;
+margin-top: 100px;
+
+
+}
+
+
+tbody{
+display: flex;
+}
+
+.box-1{
+
+text-align: start;
+width: 700px;
+margin-right: 25px;
+padding: 0 90px 0 0 ;
+
+}
+
+
+
+.box-1 button{
+  margin-bottom: 18px;
+}
+
+.box-1 p{
+
+font-size: 18px;
+color: #727272;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 500;
+
+
+}
+
+.box-1 div{
+  display: flex;
+  justify-self: center;
+  text-align: center;
+  gap: 17px;
+}
+
+h1{
+
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 47px;
+
+
+}
+
+.focus{
+
+color: #e2a600;
+
+}
+
+
+
+.hero-image{
+
+width: 339px;
+height: 402;
+
+}
+
+footer {
+
+margin-top: 90px;
+margin-bottom: 50px;
+
+}
+
+footer p{
+
+color: #777777;
+font-size: 18px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 500;
+margin-bottom: 15px;
+
+}
+
+
+.stores{
+
+display: flex;
+justify-content: center;
+gap: 42px;
+
+}
+
